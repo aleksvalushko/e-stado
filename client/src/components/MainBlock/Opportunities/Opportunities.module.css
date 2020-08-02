@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Gilroy-Light";
+  src: url("../fonts/Gilroy-Light.otf") format("otf");
+  src: url("../fonts/Gilroy-Light.ttf") format("ttf");
+  font-style: normal;
+}
+.opportunities {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.opportunity {
+  display: flex;
+  font-family: "Gilroy-Light" sans-serif;
+  color: #242424;
+  font-size: 12px;
+  line-height: 18px;
+  padding-bottom: 2%;
+  width: 30%;
+}
+.opportunity span {
+  font-weight: 800;
+}
+
+/*# sourceMappingURL=Opportunities.module.css.map */

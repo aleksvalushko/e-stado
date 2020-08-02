@@ -1,0 +1,42 @@
+@import '../../../../components/variables.module'
+
+.questionsBlock
+  width: 100%
+  height: 80%
+  border-radius: 5px
+  border: 1px solid #efefef
+  display: flex
+  flex-direction: column
+  align-items: center
+  padding-top: 2%
+  margin-top: 2%
+
+.questionNumber
+  @include fontFamily
+  width: 50%
+  height: 10%
+  display: flex
+  justify-content: center
+  align-items: center
+  font-size: 14px
+  line-height: 17px
+  text-align: center
+  letter-spacing: 0.05em
+
+.question
+  width: 30%
+  height: 20%
+  margin-bottom: 4%
+  text-align: center
+  @include fontFamily
+  font-size: 24px
+  line-height: 29px
+  @include span
+
+.answer
+  z-index: 3
+  @include answer
+  width: 200px
+
+.validation
+  border: 1px solid red

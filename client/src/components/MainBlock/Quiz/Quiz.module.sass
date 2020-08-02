@@ -1,0 +1,104 @@
+@import '../../../fonts/fonts'
+@import '../../../components/variables.module'
+
+.quiz
+  width: 100%
+  height: 55%
+  background: white
+  border-radius: 5px
+  padding: 1%
+
+.quizBlock
+  width: 100%
+  height: 90%
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: space-between
+
+.scrollBarBlock
+  width: 100%
+  height: 15%
+  border-radius: 5px
+  border: 1px solid #efefef      //f5f5f5
+  display: flex
+  justify-content: center
+  align-items: center
+
+.circle1, .circle2, .circle3
+  border: 1px solid #efefef
+  border-radius: 50%
+  width: 17px
+  height: 17px
+  background: #5bbb2e
+
+.circle1
+  position: absolute
+  right: 87%
+
+.circle2
+  position: absolute
+
+.circle3
+  position: absolute
+  right: 9%
+
+.line1, .line2
+  border-top: 1px solid #efefef
+  border-bottom: 1px solid #efefef
+  width: 325px
+  height: 10px
+  background: rgba(90, 221, 40, 0.62)
+
+.questionsBlock
+  width: 100%
+  height: 80%
+  border-radius: 5px
+  border: 1px solid #efefef
+  display: flex
+  flex-direction: column
+  align-items: center
+  padding-top: 2%
+  margin-top: 2%
+
+.questionNumber
+  @include fontFamily
+  width: 50%
+  height: 10%
+  display: flex
+  justify-content: center
+  align-items: center
+  font-size: 14px
+  line-height: 17px
+  text-align: center
+  letter-spacing: 0.05em
+
+.question
+  width: 30%
+  height: 20%
+  margin-bottom: 4%
+  text-align: center
+  @include fontFamily
+  font-size: 24px
+  line-height: 29px
+  @include span
+
+.answer
+  width: 20%
+  height: 20%
+  background: #f4f4f4
+  border: none
+  font-size: 15px
+  padding: 0 2%
+  z-index: 4
+  outline: none
+
+.quizButton
+  @include quizButton
+  width: 146px
+
+.quizButton2
+  @include quizButton
+  width: 246px
+  left: 36.5%
+  transition: .3s

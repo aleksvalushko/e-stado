@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "Gilroy-Light";
+  src: url("../fonts/Gilroy-Light.otf") format("otf");
+  src: url("../fonts/Gilroy-Light.ttf") format("ttf");
+  font-style: normal;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titleHeadline1 {
+  font-family: "Gilroy-Light" sans-serif;
+  color: #242424;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+}
+
+.titleHeadline2 {
+  font-family: "Gilroy-Light" sans-serif;
+  color: #242424;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 34px;
+  width: 75%;
+  text-align: center;
+}
+.titleHeadline2 span {
+  color: #5bbb2e;
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=Title.module.css.map */

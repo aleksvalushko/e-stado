@@ -1,0 +1,59 @@
+@mixin bgImages
+  background-size: cover
+  background-repeat: no-repeat
+  position: absolute
+  height: 400px
+  width: 100%
+  bottom: 50%
+
+@mixin fontFamily
+  font-family: 'Gilroy-Light' sans-serif
+  color: #242424
+
+@mixin span
+  span
+    color: #5bbb2e
+    font-weight: 700
+
+@mixin circle
+  position: absolute
+  z-index: 3
+
+@mixin line
+  border-top: 1px solid #efefef
+  border-bottom: 1px solid #efefef
+  width: 318px
+  height: 10px
+  z-index: 2
+
+@mixin quizButton
+  height: 54.86px
+  background: linear-gradient(98.61deg, #FBDB6A 5.19%, #FFEBA3 49.97%, #FBDB6A 95.49%)
+  box-shadow: 0 6px 1px #debd65, 0 6px 1px #e2ce88, 0 6px 1px #e2c267
+  border-radius: 52px
+  border: none
+  position: absolute
+  bottom: -3.5%
+  left: 43%
+  font-weight: 500
+  font-size: 14px
+  line-height: 17px
+  cursor: pointer
+  z-index: 4
+  outline: none
+  &:hover
+    background: linear-gradient(98.61deg, #ffe260 5.19%, #ffeba9 49.97%, #ffe260 95.49%)
+    box-shadow: 0 4px 1px #debd65, 0 4px 1px #e2ce88, 0 4px 1px #e2c267
+    bottom: -4%
+    transition: .2s
+  img
+    position: absolute
+    left: 70%
+
+@mixin answer
+  background: #f4f4f4
+  border: none
+  font-size: 18px
+  padding: 0 2%
+  outline: none
+  height: 50px

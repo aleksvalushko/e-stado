@@ -1,0 +1,57 @@
+.questionsBlock {
+  width: 100%;
+  height: 80%;
+  border-radius: 5px;
+  border: 1px solid #efefef;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2%;
+  margin-top: 2%;
+}
+
+.questionNumber {
+  font-family: "Gilroy-Light" sans-serif;
+  color: #242424;
+  width: 50%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+
+.question {
+  width: 30%;
+  height: 20%;
+  margin-bottom: 4%;
+  text-align: center;
+  font-family: "Gilroy-Light" sans-serif;
+  color: #242424;
+  font-size: 24px;
+  line-height: 29px;
+}
+.question span {
+  color: #5bbb2e;
+  font-weight: 700;
+}
+
+.answer {
+  z-index: 3;
+  background: #f4f4f4;
+  border: none;
+  font-size: 18px;
+  padding: 0 2%;
+  outline: none;
+  height: 50px;
+  width: 200px;
+}
+
+.validation {
+  border: 1px solid red;
+}
+
+/*# sourceMappingURL=QuestionBlock.module.css.map */

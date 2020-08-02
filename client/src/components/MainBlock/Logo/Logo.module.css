@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Gilroy-Light";
+  src: url("../fonts/Gilroy-Light.otf") format("otf");
+  src: url("../fonts/Gilroy-Light.ttf") format("ttf");
+  font-style: normal;
+}
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2%;
+  width: 55%;
+}
+
+.logoText {
+  font-family: "Gilroy-Light" sans-serif;
+  color: #242424;
+  font-size: 13px;
+  line-height: 18px;
+  margin-left: 5%;
+}
+
+/*# sourceMappingURL=Logo.module.css.map */

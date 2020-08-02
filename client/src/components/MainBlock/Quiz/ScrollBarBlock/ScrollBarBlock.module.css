@@ -1,0 +1,65 @@
+.scrollBarBlock {
+  width: 100%;
+  height: 15%;
+  border-radius: 5px;
+  border: 1px solid #efefef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle1, .circle2, .circle3 {
+  border: 1px solid #efefef;
+  border-radius: 50%;
+  width: 17px;
+  height: 17px;
+}
+
+.circle1 {
+  position: absolute;
+  z-index: 3;
+  right: 87%;
+}
+
+.circle2 {
+  position: absolute;
+  z-index: 3;
+}
+
+.circle3 {
+  position: absolute;
+  z-index: 3;
+  right: 9%;
+}
+
+.line1 {
+  position: absolute;
+  left: 12.7%;
+  border-top: 1px solid #efefef;
+  border-bottom: 1px solid #efefef;
+  width: 318px;
+  height: 10px;
+  z-index: 2;
+}
+
+.line2 {
+  position: absolute;
+  left: 51.7%;
+  border-top: 1px solid #efefef;
+  border-bottom: 1px solid #efefef;
+  width: 318px;
+  height: 10px;
+  z-index: 2;
+}
+
+.active1 {
+  background: #5bbb2e;
+  transition: 0.4s;
+}
+
+.active2 {
+  background: rgba(90, 221, 40, 0.62);
+  transition: 0.2s;
+}
+
+/*# sourceMappingURL=ScrollBarBlock.module.css.map */
