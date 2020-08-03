@@ -18,7 +18,6 @@ class Quiz extends Component {
                     questionId: 1,
                     questionPart1: 'Сколько у вас ',
                     questionPart2: 'дойных коров?',
-                    inputType: 'text',
                     placeholder: 'Например: 45',
                     answer: ''
                 },
@@ -26,7 +25,6 @@ class Quiz extends Component {
                     questionId: 2,
                     questionPart1: 'Сколько ',
                     questionPart2: 'молока в сутки вы доите?',
-                    inputType: 'text',
                     placeholder: 'Например: 10',
                     answer: ''
                 },

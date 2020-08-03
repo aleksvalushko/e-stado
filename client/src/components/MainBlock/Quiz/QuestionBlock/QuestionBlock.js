@@ -7,8 +7,6 @@ function QuestionBlock(props) {
 
     let [value, setState] = useState(questionBlock.answer);
 
-    // let validation = typeof(+questionBlock.answer) === 'number' ? `${mod.answer}` : `${mod.answer} ${mod.validation}`;
-
     function handleInputChange(e) {
         setState(questionBlock.answer = e.target.value);
     }
@@ -17,7 +15,7 @@ function QuestionBlock(props) {
         <div className={mod.questionsBlock}>
             <div className={mod.questionNumber}>ВОПРОС {questionBlock.questionId}</div>
             <div className={mod.question}>{questionBlock.questionPart1}<span>{questionBlock.questionPart2}</span></div>
-            <input className={mod.answer} type={questionBlock.inputType} value={questionBlock.answer}
+            <input className={mod.answer} type='text' value={questionBlock.answer}
                    placeholder={questionBlock.placeholder} onChange={handleInputChange}/>
         </div>
     );
